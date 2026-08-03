@@ -1,0 +1,13 @@
+:root {
+  --hero-slider-green: rgb(7, 177, 7);
+  --hero-slider-lightgreen: rgb(129, 236, 129);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+

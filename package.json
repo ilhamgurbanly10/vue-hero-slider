@@ -1,21 +1,21 @@
 {
-  "name": "hero-slider",
+  "name": "i-hero-slider",
   "version": "1.0.0",
   "description": "A reusable Hero Slider component for Vue 3",
   "type": "module",
   "files": [
     "dist"
   ],
-  "main": "./dist/hero-slider.umd.js",
-  "module": "./dist/hero-slider.es.js",
+  "main": "./dist/i-hero-slider.umd.js",
+  "module": "./dist/i-hero-slider.es.js",
   "types": "./dist/index.d.ts",
   "exports": {
     ".": {
       "types": "./dist/index.d.ts",
-      "import": "./dist/hero-slider.es.js",
-      "require": "./dist/hero-slider.umd.js"
+      "import": "./dist/i-hero-slider.es.js",
+      "require": "./dist/i-hero-slider.umd.js"
     },
-    "./dist/style.css": "./dist/hero-slider.css"
+    "./dist/style.css": "./dist/i-hero-slider.css"
   },
   "scripts": {
     "dev": "vite",

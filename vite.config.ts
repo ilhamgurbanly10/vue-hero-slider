@@ -10,7 +10,7 @@ export default defineConfig({
     lib: {
       entry: path.resolve(__dirname, "src/index.ts"), 
       name: "hero-slider", 
-      fileName: (format) => `hero-slider.${format}.js`
+      fileName: (format) => `i-hero-slider.${format}.js`
     }, 
     rollupOptions: {
       external: ["vue"], 
